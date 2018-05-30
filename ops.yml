@@ -8,3 +8,7 @@
   - name: Start Redis
     service: name=redis_6379 state=started
     tags: start_redis
+
+  - name: Start Redis
+    service: name=redis_6379 state=restarted
+    tags: restart_redis
