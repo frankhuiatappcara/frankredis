@@ -1,3 +1,2 @@
 # frankredis
 
-test
